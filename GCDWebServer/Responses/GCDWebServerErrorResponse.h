@@ -25,8 +25,8 @@
  SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#import "GCDWebServerDataResponse.h"
-#import "GCDWebServerHTTPStatusCodes.h"
+#import <GCDWebServers/GCDWebServerResponse.h>
+#import <GCDWebServers/GCDWebServerHTTPStatusCodes.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

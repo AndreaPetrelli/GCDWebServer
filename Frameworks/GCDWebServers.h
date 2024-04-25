@@ -26,27 +26,27 @@
  */
 
 // GCDWebServer Core
-#import "GCDWebServer.h"
-#import "GCDWebServerConnection.h"
-#import "GCDWebServerFunctions.h"
-#import "GCDWebServerHTTPStatusCodes.h"
-#import "GCDWebServerResponse.h"
-#import "GCDWebServerRequest.h"
+#import <GCDWebServers/GCDWebServer.h>
+#import <GCDWebServers/GCDWebServerConnection.h>
+#import <GCDWebServers/GCDWebServerFunctions.h>
+#import <GCDWebServers/GCDWebServerHTTPStatusCodes.h>
+#import <GCDWebServers/GCDWebServerRequest.h>
+#import <GCDWebServers/GCDWebServerResponse.h>
 
 // GCDWebServer Requests
-#import "GCDWebServerDataRequest.h"
-#import "GCDWebServerFileRequest.h"
-#import "GCDWebServerMultiPartFormRequest.h"
-#import "GCDWebServerURLEncodedFormRequest.h"
+#import <GCDWebServers/GCDWebServerDataRequest.h>
+#import <GCDWebServers/GCDWebServerFileRequest.h>
+#import <GCDWebServers/GCDWebServerMultiPartFormRequest.h>
+#import <GCDWebServers/GCDWebServerURLEncodedFormRequest.h>
 
 // GCDWebServer Responses
-#import "GCDWebServerDataResponse.h"
-#import "GCDWebServerErrorResponse.h"
-#import "GCDWebServerFileResponse.h"
-#import "GCDWebServerStreamedResponse.h"
+#import <GCDWebServers/GCDWebServerDataResponse.h>
+#import <GCDWebServers/GCDWebServerErrorResponse.h>
+#import <GCDWebServers/GCDWebServerFileResponse.h>
+#import <GCDWebServers/GCDWebServerStreamedResponse.h>
 
 // GCDWebUploader
-#import "GCDWebUploader.h"
+#import <GCDWebServers/GCDWebUploader.h>
 
 // GCDWebDAVServer
-#import "GCDWebDAVServer.h"
+#import <GCDWebServers/GCDWebDAVServer.h>
