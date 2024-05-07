@@ -39,7 +39,7 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @interface GCDWebServerFileResponse : GCDWebServerResponse
 @property(nonatomic, copy) NSString* contentType;  // Redeclare as non-null
-@property(nonatomic) NSDate* lastModifiedDate;  // Redeclare as non-null
+@property(nonatomic, copy) NSDate* lastModifiedDate;  // Redeclare as non-null
 @property(nonatomic, copy) NSString* eTag;  // Redeclare as non-null
 
 /**
